@@ -18,6 +18,9 @@ body {
 .navbar-default {
 	background-color: transparent;
   border: 0;
+  @media (min-width: 768px){
+  	margin-bottom: 10px;
+  }
 	.navbar-collapse,
 	.navbar-toggle {
 	  border-color: $orange;
@@ -38,9 +41,27 @@ body {
 	@media (min-width: 768px){
 		float: none;
 		text-align: center;
+		display: table;
+    width: 100%;
 		li {
-			display: inline-block;
+			display: table-cell;
 			float: none;
+			a {
+				display: inline-block;				
+				&:after {
+					position: relative;
+					top: 10px;
+					display: block;
+					content: "";
+					width: 0;
+					height: 4px;
+					background: $orange;
+					transition: width .15s;
+				}
+				&:hover:after {
+					width: 100%;
+				}
+			}
 		}
 	}
 }
@@ -57,14 +78,6 @@ body {
 }
 // Section A
 .section-a {
-	// overflow: hidden;
-	// .bg-orange {
-	// 	min-height: 170px;
-	// 	@media (min-width: 768px){
-	// 		// padding-bottom: 1000em;
-	// 		// margin-bottom: -1000em;
-	// 	}
-	// }	
 	// Carousel
 	.item {
 		min-height: 240px;
@@ -79,14 +92,25 @@ body {
 .secAtabs {
 	margin-top: 20px;
 }
-.nav-tabs > li {
-	float: right;
-	a {
-	  // border-color: #fff;		
-	}
-	a:hover {
-	  background-color: transparent;
-	  border-color: $w $w #ddd;		
+
+.nav-tabs {
+	border-bottom: 1px solid $orange;
+	& > li {
+		float: right;
+		a {
+	    color: inherit;	
+		}
+		a:hover {
+		  background-color: transparent;
+		  border-color: $w $w #ddd;		
+		}
+		&.active > a, 
+		&.active > a:hover, 
+		&.active > a:focus {
+			color: $orange;
+			border: 1px solid $orange;
+			border-bottom-color: transparent;
+		}
 	}
 }
 // Section C
@@ -129,4 +153,16 @@ body {
 	.media-left {
 		min-width: 130px;
 	}	
+}
+
+// Section E
+
+.progress {
+	height: 5px;
+	margin-top: 10px;
+	background-color: transparent;
+	border-radius: 0;
+}
+.progress-bar {
+	background-color: $w;
 }

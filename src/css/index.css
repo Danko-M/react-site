@@ -17,6 +17,12 @@ body {
   border: 0;
 }
 
+@media (min-width: 768px) {
+  .navbar-default {
+    margin-bottom: 10px;
+  }
+}
+
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-toggle {
   border-color: #ffb647;
@@ -38,10 +44,28 @@ body {
   .navbar-nav {
     float: none;
     text-align: center;
+    display: table;
+    width: 100%;
   }
   .navbar-nav li {
-    display: inline-block;
+    display: table-cell;
     float: none;
+  }
+  .navbar-nav li a {
+    display: inline-block;
+  }
+  .navbar-nav li a:after {
+    position: relative;
+    top: 10px;
+    display: block;
+    content: "";
+    width: 0;
+    height: 4px;
+    background: #ffb647;
+    transition: width .15s;
+  }
+  .navbar-nav li a:hover:after {
+    width: 100%;
   }
 }
 
@@ -71,13 +95,29 @@ body {
   margin-top: 20px;
 }
 
+.nav-tabs {
+  border-bottom: 1px solid #ffb647;
+}
+
 .nav-tabs > li {
   float: right;
+}
+
+.nav-tabs > li a {
+  color: inherit;
 }
 
 .nav-tabs > li a:hover {
   background-color: transparent;
   border-color: #fff #fff #ddd;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #ffb647;
+  border: 1px solid #ffb647;
+  border-bottom-color: transparent;
 }
 
 .section-c {
@@ -122,4 +162,15 @@ body {
 
 .sectionF .media-left {
   min-width: 130px;
+}
+
+.progress {
+  height: 5px;
+  margin-top: 10px;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.progress-bar {
+  background-color: #fff;
 }

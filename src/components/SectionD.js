@@ -6,11 +6,26 @@ export class SectionD extends Component {
     return ( 
 			<Grid>
 		    <Row className="show-grid text-center">
-		      <Col className='col-xs-12 col-sm-1-5 well'>1 - 20%</Col>
-		      <Col className='col-xs-12 col-sm-1-5 well'>2 - 20%</Col>
-		      <Col className='col-xs-12 col-sm-1-5 well'>3 - 20%</Col>
-		      <Col className='col-xs-12 col-sm-1-5 well'>4 - 20%</Col>
-		      <Col className='col-xs-12 col-sm-1-5 well'>5 - 20%</Col>
+		      <Col className='col-xs-12 col-sm-1-5'>
+		      	<div className="text-uppercase">Design created</div>
+		      	<div>75</div>
+		      </Col>
+		      <Col className='col-xs-12 col-sm-1-5'>
+		      	<div className="text-uppercase">Projects delivered</div>
+		      	<div>68</div>
+	      	</Col>
+		      <Col className='col-xs-12 col-sm-1-5'>
+		      	<div className="text-uppercase">Awards won</div>
+		      	<div>14</div>
+	      	</Col>
+		      <Col className='col-xs-12 col-sm-1-5'>
+		      	<div className="text-uppercase">Happy clients</div>
+		      	<div>34</div>
+	      	</Col>
+		      <Col className='col-xs-12 col-sm-1-5'>
+		      	<div className="text-uppercase">Pizzas ordered</div>
+		      	<div>94</div>
+	      	</Col>
 		    </Row>
 		  </Grid>  			     
     )

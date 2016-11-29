@@ -19,9 +19,11 @@ export class SectionC extends Component {
 							</tbody> 
 						</table>
 		      </Col>
-		      <Col xs={12} sm={4} className="bg-orange">
+		      <Col xs={12} sm={4} className="text-center bg-orange">
 		      	<h3>Client Comment</h3>
-		      	<p>Similique itaque consequatur sit adipisci eaque expedita eveniet, harum ex illo neque perferendis. Illo fugit provident sed porro quam, officiis, reiciendis incidunt?</p>
+		      	<div>These guys are very skilled. They do know how to handle complex projects easily.</div>
+		      	<h4 className="text-uppercase">Thomas Hilton</h4>
+		      	<small className="text-uppercase">Founder : &#9788; Shining Sun Web</small>
 	      	</Col>
 		    </Row>
 		  </Grid>  			     
