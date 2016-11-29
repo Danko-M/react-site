@@ -1,0 +1,26 @@
+{
+  "name": "r-bootstrap",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://danko-m.github.io/react-site/",
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp-autoprefixer": "^3.1.1",
+    "react": "^15.4.1",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  }
+}

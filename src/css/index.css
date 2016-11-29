@@ -1,0 +1,125 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+.alert-dismissable {
+  margin-top: 20px;
+}
+
+.bg-orange {
+  color: #fff;
+  background-color: #ffb647;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: 0;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-toggle {
+  border-color: #ffb647;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffb647;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #ffb647;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+    text-align: center;
+  }
+  .navbar-nav li {
+    display: inline-block;
+    float: none;
+  }
+}
+
+.hero {
+  background-image: url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    min-height: 800px;
+  }
+}
+
+.section-a .item {
+  min-height: 240px;
+}
+
+.section-a .carousel-indicators li, .section-a .carousel-indicators .active {
+  margin-right: 7.5px;
+}
+
+.secAtabs {
+  margin-top: 20px;
+}
+
+.nav-tabs > li {
+  float: right;
+}
+
+.nav-tabs > li a:hover {
+  background-color: transparent;
+  border-color: #fff #fff #ddd;
+}
+
+.section-c {
+  overflow: hidden;
+}
+
+.section-c .sec-c-first {
+  min-height: 300px;
+  background-image: url(../img/monitor.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+@media (min-width: 1200px) {
+  .section-c .sec-c-first {
+    min-height: 550px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-c .mid {
+    padding-left: 40px;
+  }
+}
+
+.section-c .table > tbody > tr > th,
+.section-c .table > tbody > tr > td {
+  border-top: 0;
+}
+
+.section-c .bg-orange {
+  padding-bottom: 1000em;
+  margin-bottom: -1000em;
+}
+
+@media (min-width: 768px) {
+  .col-sm-1-5 {
+    width: 20%;
+  }
+}
+
+.sectionF .media-left {
+  min-width: 130px;
+}
