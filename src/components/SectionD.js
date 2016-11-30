@@ -3,26 +3,26 @@ import { Grid, Row, Col } from 'react-bootstrap';
 
 export const SectionD  = () => 
 	<Grid>
-    <Row className="show-grid text-center">
+    <Row className="section-d">
       <Col className='col-xs-12 col-sm-1-5'>
-      	<div className="text-uppercase">Design created</div>
-      	<div>75</div>
+      	<h4 className="text-uppercase dashed-underline-left">Design created</h4>
+      	<div className="big-numbers">75</div>
       </Col>
       <Col className='col-xs-12 col-sm-1-5'>
-      	<div className="text-uppercase">Projects delivered</div>
-      	<div>68</div>
+      	<h4 className="text-uppercase dashed-underline-left">Projects delivered</h4>
+      	<div className="big-numbers">68</div>
     	</Col>
       <Col className='col-xs-12 col-sm-1-5'>
-      	<div className="text-uppercase">Awards won</div>
-      	<div>14</div>
+      	<h4 className="text-uppercase dashed-underline-left">Awards won</h4>
+      	<div className="big-numbers">14</div>
     	</Col>
       <Col className='col-xs-12 col-sm-1-5'>
-      	<div className="text-uppercase">Happy clients</div>
-      	<div>34</div>
+      	<h4 className="text-uppercase dashed-underline-left">Happy clients</h4>
+      	<div className="big-numbers">34</div>
     	</Col>
       <Col className='col-xs-12 col-sm-1-5'>
-      	<div className="text-uppercase">Pizzas ordered</div>
-      	<div>94</div>
+      	<h4 className="text-uppercase dashed-underline-left">Pizzas ordered</h4>
+      	<div className="big-numbers">94</div>
     	</Col>
     </Row>
   </Grid>  			     
