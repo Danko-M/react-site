@@ -19,9 +19,9 @@ export const SectionC = () =>
       </Col>
       <Col xs={12} sm={5} md={4} className="text-center bg-orange">
       	<h3>Client Comment</h3>
-      	<div>These guys are very skilled. They do know how to handle complex projects easily.</div>
-      	<h4 className="text-uppercase">Thomas Hilton</h4>
-      	<small className="text-uppercase">Founder : &#9788; Shining Sun Web</small>
+      	<p><em>These guys are very skilled. They do know how to handle complex projects easily.</em></p>
+      	<h5 className="text-uppercase">Thomas Hilton</h5>
+      	<h6 className="text-uppercase">Founder : &#9788; Shining Sun Web</h6>
     	</Col>
     </Row>
   </Grid>  			     

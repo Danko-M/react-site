@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .alert-dismissable {
@@ -256,7 +256,7 @@ body {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .section-c .mid {
     padding-left: 40px;
   }
@@ -279,8 +279,33 @@ body {
 }
 
 .section-c .bg-orange {
+  padding-top: 50px;
   padding-bottom: 1000em;
   margin-bottom: -1000em;
+}
+
+@media (min-width: 1200px) {
+  .section-c .bg-orange {
+    padding-top: 100px;
+  }
+}
+
+.section-c .bg-orange p {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.section-c .bg-orange p:after {
+  display: block;
+  content: '';
+  width: 50px;
+  height: 1px;
+  margin: 50px auto;
+  background: #fff;
+}
+
+.section-c h6 {
+  margin-bottom: 50px;
 }
 
 .section-d {
