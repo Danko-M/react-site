@@ -3,8 +3,8 @@ import { Grid, Row, Col } from 'react-bootstrap';
 
 export const SectionB = () => 
 	<Grid>
-    <Row className="">
-      <Col xs={12} sm={4}>
+    <Row className="section-b">
+      <Col sm={4} xs={12}>
       	<h3>Pixel Perfect</h3>
       	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </Col>

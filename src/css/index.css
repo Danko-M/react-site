@@ -150,8 +150,30 @@ body {
   }
 }
 
+@media (max-width: 767px) {
+  .section-a .col-sm-5 {
+    margin-top: 20px;
+  }
+}
+
 .section-a .item {
   min-height: 240px;
+}
+
+@media (min-width: 768px) {
+  .section-a .item {
+    text-align: center;
+  }
+}
+
+.section-a .item h2 {
+  margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .section-a .item h2 {
+    margin-bottom: 30px;
+  }
 }
 
 .section-a .carousel-indicators li, .section-a .carousel-indicators .active {
@@ -187,16 +209,45 @@ body {
   border-bottom-color: transparent;
 }
 
+.section-b {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.section-b .col-sm-4 {
+  margin-bottom: 50px;
+}
+
+.section-b h3 {
+  margin-bottom: 20px;
+}
+
+.section-b h3:after {
+  position: relative;
+  display: block;
+  content: '- —';
+  color: #ffb647;
+  font-size: 40px;
+  font-weight: 400;
+}
+
 .section-c {
   overflow: hidden;
 }
 
 .section-c .sec-c-first {
+  display: none;
   min-height: 300px;
   background-image: url(../img/monitor.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left center;
+}
+
+@media (min-width: 992px) {
+  .section-c .sec-c-first {
+    display: block;
+  }
 }
 
 @media (min-width: 1200px) {
