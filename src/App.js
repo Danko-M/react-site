@@ -17,11 +17,13 @@ class App extends Component {
     super();
     this.state = {
       showModal: false,
-      showAlert: true
+      showAlert: true,
+      message: ""
     };
     this.closeAlert = this.closeAlert.bind(this);
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
+    // this._setMessage = this._setMessage.bind(this);
   }
   
   closeModal() {
@@ -36,6 +38,9 @@ class App extends Component {
     this.setState({ showAlert: false });
   }
 
+  _setMessage(msg) {
+    this.setState({ message: msg });
+  }
   render() {
     return (
       <div>
