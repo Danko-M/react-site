@@ -13,6 +13,7 @@ export const Hero = () =>
 					  <li><a href="#"><i className="fa fa-dribbble" aria-hidden="true"></i></a></li>
 					</ul>
 	      	<h1>Helping Our Clients To Achieve Success</h1>	
+	      	
 	      	<h3>
 	      		<em>We make High-level Design Creation Affordable For Everyone</em>
 	      	</h3>

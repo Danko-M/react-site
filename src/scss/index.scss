@@ -1,5 +1,6 @@
 
 $orange: #ffb647;
+$gray-1 : #aaa;
 $w: #fff; 
 
 body {
@@ -74,6 +75,53 @@ body {
 	background-position: center bottom;
 	@media (min-width: 768px){
 		min-height: 800px;
+	}
+	@media (min-width: 1200px){
+		min-height: 1008px;
+	}
+	a {
+		color: $gray-1;
+		&:hover, &:focus {
+			color: $orange;
+		}
+	}
+	ul {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		@media (min-width: 768px){
+			margin-top: 150px;
+			margin-bottom: 100px;
+		}
+
+	}
+	li {
+		padding-left: 10px;
+		padding-right: 10px;
+		border-left: 1px solid $gray-1;
+		&:first-child {
+			border-left: 0;
+		}
+	}
+	h1 {
+		position: relative;
+		@media (min-width: 768px){
+			font-weight: 700;
+		}
+		&:after {
+			position: relative;
+			top: 40px;
+			display: block;
+			content: '- — -';
+			font-weight: 400;
+		}
+	}
+	h3 {
+		margin-top: 50px;
+		margin-bottom: 120px;
+		@media (min-width: 768px){
+			margin-top: 80px;
+			margin-bottom: 0;
+		}
 	}
 }
 // Section A
