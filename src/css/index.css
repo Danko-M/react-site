@@ -456,7 +456,6 @@ body {
 .map {
   position: relative;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .map .panel {
@@ -467,6 +466,10 @@ body {
 
 .map .bg-orange {
   cursor: pointer;
+}
+
+.map .bg-orange:hover {
+  background-color: #ffa214;
 }
 
 .map .map-panel {
@@ -500,4 +503,30 @@ body {
   position: relative;
   top: 5px;
   right: 10px;
+}
+
+.map .gm-style-iw {
+  text-align: center;
+}
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #fff;
+  background: #222;
+}
+
+.footer .form-control, .footer button {
+  border-radius: 0;
+}
+
+.footer .form-control {
+  min-height: 50px;
+  margin-bottom: 30px;
+  background: #222;
+}
+
+.footer textarea.form-control {
+  min-height: 210px;
+  background: #222;
 }

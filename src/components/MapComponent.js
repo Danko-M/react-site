@@ -2,6 +2,10 @@ import React from 'react';
 import { Grid, Row, Panel } from 'react-bootstrap';
 import {Gmaps, Marker, InfoWindow, Circle} from 'react-gmaps';
 
+// To do
+// 1) Move state to App component
+// 2) Use ES6 - export class MyComponent extends React.Component
+
 const coords = {
   lat: 51.5258541,
   lng: -0.08040660000006028
@@ -16,7 +20,7 @@ export const MapComponent = React.createClass({
 
   onMapCreated(map) {
     map.setOptions({
-      disableDefaultUI: true
+      // disableDefaultUI: true
     });
     this.setState({open: false})
   },
@@ -58,7 +62,7 @@ export const MapComponent = React.createClass({
 			        <InfoWindow
 			          lat={coords.lat}
 			          lng={coords.lng}
-			          content={'Hello, React :)'}
+			          content={'<strong>Hello, React</strong>'}
 			          onCloseClick={this.onCloseClick} />
 			        <Circle
 			          lat={coords.lat}

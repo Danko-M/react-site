@@ -2,6 +2,7 @@
 $orange: #ffb647;
 $gray-1 : #aaa;
 $gray-2 : #ededed;
+$dark: #222;
 $w: #fff; 
 
 body {
@@ -366,7 +367,6 @@ body {
 .map {
 	position: relative;
 	margin-top: 50px;
-	margin-bottom: 50px;
 	.panel {
 		margin-bottom: 0;
 		border: 0;
@@ -374,6 +374,9 @@ body {
 	}
 	.bg-orange {
 		cursor: pointer;
+		&:hover {
+			background-color: darken($orange, 10%);
+		}
 	}
 	.map-panel {
 		position: relative;
@@ -402,5 +405,27 @@ body {
 		position: relative;
     top: 5px;
     right: 10px;
+	}
+	.gm-style-iw {
+		text-align: center;
+	}
+}
+// Footer
+.footer {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	color: $w;
+	background: $dark;
+	.form-control, button {
+		border-radius: 0;
+	}
+	.form-control {
+		min-height: 50px;
+		margin-bottom: 30px;
+		background: $dark;
+	}
+	textarea.form-control {
+		min-height: 210px;
+		background: $dark;
 	}
 }
