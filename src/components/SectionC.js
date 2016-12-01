@@ -6,7 +6,7 @@ export const SectionC = () =>
     <Row className="section-c">
       <Col md={3} className="sec-c-first"></Col>
       <Col xs={12} sm={7} md={5} className="mid">
-      	<h3 className="dashed-underline-left">Featured Project</h3>
+      	<h3 className="dashed-underline">Featured Project</h3>
       	<h2>Shining Sun Web</h2>
       	<p>Reiciendis, fugiat natus dolorum dolore iste similique ea, aliquam sequi dolores rerum consequatur temporibus ipsam doloribus minus veritatis veniam iure pariatur expedita.</p>
 				<table className="table table-hover"> 

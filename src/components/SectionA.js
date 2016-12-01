@@ -4,9 +4,9 @@ import { SectionAcarousel } from './SectionAcarousel'
 import { SectionAtwoTabs } from './SectionAtwoTabs'
 
 export const SectionA = () => 
-	<Grid fluid={true}>
+	<Grid fluid={true} className="section-a">
 		<Grid>
-	    <Row className="section-a">
+	    <Row>
 	      <Col xs={12} sm={5} className="bg-orange">
 	      	<SectionAcarousel />
 	      </Col>

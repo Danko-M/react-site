@@ -10,6 +10,7 @@ import { SectionE } from './components/SectionE';
 import { SectionF } from './components/SectionF';
 import { Footer } from './components/Footer';
 import { SectionModal } from './components/Modal';
+import { MapComponent } from './components/MapComponent';
 
 
 class App extends Component {
@@ -55,7 +56,7 @@ class App extends Component {
         <SectionF />
 
         <SectionModal handleOpen={this.openModal} handleClose={this.closeModal} isOpen={this.state.showModal} />
-        
+        <MapComponent />
         <Footer />
       </div>      
     );

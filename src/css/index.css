@@ -13,7 +13,7 @@ body {
   background-color: #ffb647;
 }
 
-.dashed-underline-left:after {
+.dashed-underline:after {
   position: relative;
   display: block;
   content: '- —';
@@ -33,7 +33,13 @@ body {
   }
 }
 
-.navbar-default .navbar-collapse,
+@media (max-width: 767px) {
+  .navbar-default .navbar-collapse {
+    border: 0;
+    box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.25);
+  }
+}
+
 .navbar-default .navbar-toggle {
   border-color: #ffb647;
 }
@@ -85,6 +91,7 @@ body {
   background-size: auto 100%;
   background-size: cover;
   background-position: center bottom;
+  box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 768px) {
@@ -191,6 +198,12 @@ body {
 
 .secAtabs {
   margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .secAtabs {
+    margin-left: 40px;
+  }
 }
 
 .secAtabs h3 {
@@ -359,6 +372,7 @@ body {
   margin-bottom: -1000em;
   background-image: url(../img/img-01.jpg);
   background-position: center top;
+  box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.25);
 }
 
 .section-e h3 {
@@ -381,6 +395,109 @@ body {
   text-align: right;
 }
 
-.sectionF .media-left {
-  min-width: 130px;
+.section-f {
+  margin-top: 100px;
+}
+
+.section-f .media-left {
+  min-width: 115px;
+}
+
+@media (max-width: 767px) {
+  .section-f .media-left {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-f .media-left {
+    min-width: 185px;
+    text-align: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-f .media-body {
+    padding-left: 40px;
+  }
+}
+
+.section-f h3 {
+  margin-top: 0;
+}
+
+.gid-8 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+  .gid-8 {
+    border-top: 2px solid #ededed;
+    border-left: 2px solid #ededed;
+  }
+}
+
+@media (min-width: 768px) {
+  .gid-8 .col-sm-6 {
+    padding-bottom: 50%;
+    border-right: 2px solid #ededed;
+    border-bottom: 2px solid #ededed;
+  }
+}
+
+@media (min-width: 992px) {
+  .gid-8 .col-sm-6 {
+    padding-bottom: 20%;
+  }
+}
+
+.map {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.map .panel {
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.map .bg-orange {
+  cursor: pointer;
+}
+
+.map .map-panel {
+  position: relative;
+}
+
+.map .map-panel .panel-body {
+  padding: 0;
+}
+
+.map .map-panel .panel-body:before, .map .map-panel .panel-body:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: block;
+  height: 10px;
+  z-index: 5;
+}
+
+.map .map-panel .panel-body:before {
+  top: 0;
+  box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.25);
+}
+
+.map .map-panel .panel-body:after {
+  bottom: 0;
+  box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.25);
+}
+
+.map .fa {
+  position: relative;
+  top: 5px;
+  right: 10px;
 }
