@@ -364,6 +364,20 @@ body {
 	}
 }
 
+// Section I
+.section-i {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: url(../img/polygons.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	.carousel-control.left,
+	.carousel-control.right {
+		background-image: none;
+	}
+}
+
 // Google map
 .map {
 	position: relative;

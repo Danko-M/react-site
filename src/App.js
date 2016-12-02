@@ -8,6 +8,9 @@ import { SectionC } from './components/SectionC';
 import { SectionD } from './components/SectionD';
 import { SectionE } from './components/SectionE';
 import { SectionF } from './components/SectionF';
+
+import { SectionI } from './components/SectionI';
+import { SectionJ } from './components/SectionJ';
 import { Footer } from './components/Footer';
 import { SectionModal } from './components/Modal';
 import { MapComponent } from './components/MapComponent';
@@ -54,6 +57,9 @@ class App extends Component {
         <SectionD />
         <SectionE />
         <SectionF />
+
+        <SectionI />
+        <SectionJ />
 
         <SectionModal handleOpen={this.openModal} handleClose={this.closeModal} isOpen={this.state.showModal} />
         <MapComponent />
