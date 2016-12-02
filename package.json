@@ -7,6 +7,8 @@
     "gh-pages": "^0.12.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
+    "node-sass": "^3.13.0",
+    "nodemon": "^1.11.0",
     "react-scripts": "0.7.0"
   },
   "dependencies": {
@@ -23,6 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build",
+    "sass": "node-sass --include-path scss --output-style expanded src/scss/index.scss --source-map-embed src/css/index.css -w"
   }
 }
