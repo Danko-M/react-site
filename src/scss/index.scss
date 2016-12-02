@@ -377,7 +377,23 @@ body {
 		background-image: none;
 	}
 }
-
+// Section J
+.section-j {
+	@media (min-width: 992px){
+		.creatives {
+			padding-left: 20%;
+		}
+	}
+}
+// Section K
+.section-k {
+	text-align: center;
+	@media (min-width: 992px){
+		.row {
+			padding-left: 20%;
+		}
+	}
+}
 // Google map
 .map {
 	position: relative;

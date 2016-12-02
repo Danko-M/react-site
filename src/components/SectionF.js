@@ -16,13 +16,13 @@ export const SectionF  = () =>
       </Col>
     </Row>
     <Row className="gid-8 text-center">
-      <Col xs={12} sm={6} md={3}></Col>
-      <Col xs={12} sm={6} md={3}></Col>
-      <Col xs={12} sm={6} md={3}></Col>
-      <Col xs={12} sm={6} md={3}></Col>
-      <Col xs={12} sm={6} md={3}></Col>
-      <Col xs={12} sm={6} md={3}></Col>
-      <Col xs={12} sm={6} md={3}></Col>
-      <Col xs={12} sm={6} md={3}></Col>    	
+      <Col xs={12} sm={6} md={3} className="bg-success"></Col>
+      <Col xs={12} sm={6} md={3} className="bg-"></Col>
+      <Col xs={12} sm={6} md={3} className="bg-warning"></Col>
+      <Col xs={12} sm={6} md={3} className="bg-"></Col>
+      <Col xs={12} sm={6} md={3} className="bg-"></Col>
+      <Col xs={12} sm={6} md={3} className="bg-info"></Col>
+      <Col xs={12} sm={6} md={3} className="bg-"></Col>
+      <Col xs={12} sm={6} md={3} className="bg-danger"></Col>    	
     </Row>
   </Grid>  			     
