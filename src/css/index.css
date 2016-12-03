@@ -395,36 +395,32 @@ body {
   text-align: right;
 }
 
-.section-f {
-  margin-top: 100px;
-}
-
-.section-f .media-left {
+.media-left {
   min-width: 115px;
 }
 
 @media (max-width: 767px) {
-  .section-f .media-left {
+  .media-left {
     display: block;
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-  .section-f .media-left {
+  .media-left {
     min-width: 185px;
     text-align: right;
   }
 }
 
 @media (min-width: 768px) {
-  .section-f .media-body {
+  .media-body {
     padding-left: 40px;
   }
 }
 
-.section-f h3 {
-  margin-top: 0;
+.section-f {
+  margin-top: 100px;
 }
 
 .gid-8 {
@@ -454,8 +450,8 @@ body {
 }
 
 .section-i {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-image: url(../img/polygons.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -467,14 +463,24 @@ body {
   background-image: none;
 }
 
+.section-j {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 @media (min-width: 992px) {
   .section-j .creatives {
     padding-left: 20%;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 }
 
 .section-k {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
+  background: #ededed;
 }
 
 @media (min-width: 992px) {
@@ -544,6 +550,16 @@ body {
   padding-bottom: 50px;
   color: #fff;
   background: #222;
+}
+
+.footer .media-left {
+  min-width: auto;
+}
+
+@media (min-width: 768px) {
+  .footer .media-body {
+    padding-left: 10px;
+  }
 }
 
 .footer .form-control, .footer button {

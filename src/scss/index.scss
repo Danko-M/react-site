@@ -322,27 +322,27 @@ body {
 	line-height: 30px;
 	text-align: right;
 }
+// Section F
+
+.media-left {
+	min-width: 115px;
+	@media (max-width: 767px){
+		display: block;
+		text-align: center;
+	}
+	@media (min-width: 768px){
+		min-width: 185px;
+		text-align: right;
+	}
+}	
+.media-body {
+	@media (min-width: 768px){
+		padding-left: 40px;
+	}	
+}
+
 .section-f {
 	margin-top: 100px;
-	.media-left {
-		min-width: 115px;
-		@media (max-width: 767px){
-			display: block;
-			text-align: center;
-		}
-		@media (min-width: 768px){
-			min-width: 185px;
-			text-align: right;
-		}
-	}	
-	.media-body {
-		@media (min-width: 768px){
-			padding-left: 40px;
-		}	
-	}
-	h3 {
-		margin-top: 0;
-	}
 }
 .gid-8 {
 	margin-top: 50px;
@@ -366,8 +366,8 @@ body {
 
 // Section I
 .section-i {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background-image: url(../img/polygons.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -379,15 +379,22 @@ body {
 }
 // Section J
 .section-j {
+	margin-top: 100px;
+	margin-bottom: 50px;
 	@media (min-width: 992px){
 		.creatives {
 			padding-left: 20%;
+			margin-top: 50px;
+			margin-bottom: 100px;
 		}
 	}
 }
 // Section K
 .section-k {
+	padding-top: 50px;
+	padding-bottom: 50px;
 	text-align: center;
+	background: $gray-2;
 	@media (min-width: 992px){
 		.row {
 			padding-left: 20%;
@@ -447,6 +454,14 @@ body {
 	padding-bottom: 50px;
 	color: $w;
 	background: $dark;
+	.media-left {
+		min-width: auto;
+	}
+	@media (min-width: 768px){
+		.media-body {
+	    padding-left: 10px;
+		}
+	}	
 	.form-control, button {
 		border-radius: 0;
 	}

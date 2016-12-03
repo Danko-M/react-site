@@ -7,7 +7,7 @@ export const SectionF  = () =>
     	<Col xs={12}>
 	      <Media>
 		     <Media.Left>
-		        <h3 className="dashed-underline">What We Offers</h3>
+		        <h3 className="media-heading dashed-underline">What We Offers</h3>
 		      </Media.Left>
 		      <Media.Body>
 		        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>

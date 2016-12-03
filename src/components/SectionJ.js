@@ -1,5 +1,14 @@
 import React from 'react';
 import { Grid, Row, Col, Media } from 'react-bootstrap';
+import creative_01 from '../img/creative-01.jpg';
+import creative_02 from '../img/creative-02.jpg';
+import creative_03 from '../img/creative-03.jpg';
+
+import brand_01 from '../img/brand-01.png';
+import brand_02 from '../img/brand-02.png';
+import brand_03 from '../img/brand-03.png';
+import brand_04 from '../img/brand-04.png';
+
 
 export const SectionJ  = () => 
 	<Grid className="section-j">
@@ -14,17 +23,29 @@ export const SectionJ  = () =>
 		      </Media.Body>
 		    </Media>
         <Row className="text-center creatives">
-          <Col xs={12} sm={4} md={3} className="bg-orange">1</Col>
-          <Col xs={12} sm={4} md={3}>2</Col>
-          <Col xs={12} sm={4} md={3} className="bg-orange">3</Col>
+          <Col xs={12} sm={4} md={3} >
+            <div className="">
+              <img src={creative_01} alt=".." className="center-block img-responsive" />
+            </div>
+          </Col>
+          <Col xs={12} sm={4} md={3}>
+            <div>
+              <img src={creative_02} alt=".." className="center-block img-responsive" />
+            </div>
+          </Col>
+          <Col xs={12} sm={4} md={3} >
+            <div>
+              <img src={creative_03} alt=".." className="center-block img-responsive" />
+            </div>
+          </Col>
         </Row>
       </Col>
     </Row>
     <Row className="text-center">
       <h3 className="text-uppercase dashed-underline">Brands Who Trust Us</h3>
-      <Col xs={6} sm={3} >1</Col>
-      <Col xs={6} sm={3} >2</Col>
-      <Col xs={6} sm={3} >3</Col>
-      <Col xs={6} sm={3} >4</Col>
+      <Col xs={6} sm={3} ><img className="img-responsive" src={brand_01} alt=".."/></Col>
+      <Col xs={6} sm={3} ><img className="img-responsive" src={brand_02} alt=".."/></Col>
+      <Col xs={6} sm={3} ><img className="img-responsive" src={brand_03} alt=".."/></Col>
+      <Col xs={6} sm={3} ><img className="img-responsive" src={brand_04} alt=".."/></Col>
     </Row>
   </Grid>  			     
