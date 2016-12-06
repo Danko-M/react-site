@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Media, FormGroup, FormControl, Button } from 'react-bootstrap';
+import IconMarker from './icons/IconMarker';
+import IconEnvelope from './icons/IconEnvelope';
+import IconPhone from './icons/IconPhone';
 
 
 export class Footer extends Component {
@@ -52,7 +55,7 @@ export class Footer extends Component {
 			      <Col xs={12} sm={4}>
 					    <Media>
 					      <Media.Left align="top">
-					        <i className="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+					        <IconMarker />
 					      </Media.Left>
 					      <Media.Body>
 					        <Media.Heading className="text-uppercase dashed-underline">Address Information</Media.Heading>
@@ -61,7 +64,7 @@ export class Footer extends Component {
 					    </Media>  
 					    <Media>
 					      <Media.Left align="top">
-					        <i className="fa fa-envelope fa-lg" aria-hidden="true"></i>
+					        <IconEnvelope />
 					      </Media.Left>
 					      <Media.Body>
 					        <Media.Heading className="text-uppercase dashed-underline">Email</Media.Heading>
@@ -70,7 +73,7 @@ export class Footer extends Component {
 					    </Media>
 					    <Media>
 					      <Media.Left align="top">
-					        <i className="fa fa-phone fa-lg" aria-hidden="true"></i>
+					        <IconPhone />
 					      </Media.Left>
 					      <Media.Body>
 					        <Media.Heading className="text-uppercase dashed-underline">Toll Free Call</Media.Heading>

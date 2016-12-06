@@ -355,13 +355,19 @@ body {
 	}
 
 	.col-sm-6 {
+		padding-top: 20px;
+		padding-bottom: 20px;
 		@media (min-width: 768px){
-			padding-bottom: 50%;
+			padding-top: 50px;
+			padding-bottom: 50px;
 			border-right: 2px solid $gray-2;
 			border-bottom: 2px solid $gray-2;
+			&:hover {
+				background-color: $dark;
+				color: $w;
+			}
 		}
 		@media (min-width: 992px){
-			padding-bottom: 20%;			
 		}
 	}
 }
@@ -377,6 +383,9 @@ body {
 	.carousel-control.left,
 	.carousel-control.right {
 		background-image: none;
+	}
+	p {
+		margin-bottom: 50px;
 	}
 }
 // Section J

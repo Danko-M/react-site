@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function IconHeadPhones() {   
+export default function IconHeadPhones({height}) {   
   return (
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32px" height="32.25px" viewBox="0 0 32 32.25" >
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32px" height={height} viewBox="0 0 32 32.25" >
 			<path fill="none" stroke="#FFB647" strokeWidth="2" strokeMiterlimit="10" d="M5.988,10.991C5.988,6.118,10.215,0.979,16,0.979
 				s10.011,5.063,10.011,10.011"/>
 			<path fill="none" stroke="#FFB647" strokeWidth="2" strokeMiterlimit="10" d="M6,14v10c0,0-4.961,0.002-4.961-5S6,14,6,14z"/>

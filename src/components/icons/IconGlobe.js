@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function IconGlobe() {   
+export default function IconGlobe({height}) {   
   return (
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="28px" height="32px" viewBox="0 0 28 32" >
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="28px" height={height} viewBox="0 0 28 32" >
 			<line fill="none" stroke="#FFB647" strokeWidth="2" strokeMiterlimit="10" x1="7" y1="31" x2="17" y2="31"/>
 			<circle fill="none" stroke="#FFB647" strokeWidth="2" strokeMiterlimit="10" cx="11.982" cy="12.057" r="10.963"/>
 			<path fill="none" stroke="#FFB647" strokeWidth="2" strokeMiterlimit="10" d="M22.993,2.001c2.423,2.651,3.9,6.181,3.9,10.055

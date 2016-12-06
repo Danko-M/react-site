@@ -25,29 +25,37 @@ export const SectionF  = () =>
       </Col>
     </Row>
     <Row className="gid-8 text-center">
-      <Col xs={12} sm={6} md={3} className="bg-success">
-        <IconMonitor />
+      <Col xs={12} sm={6} md={3} >
+        <IconMonitor height="50px" />
+        <div className="text-uppercase">Web Design</div>
       </Col>    
-      <Col xs={12} sm={6} md={3} className="">
-        <IconEye />
+      <Col xs={12} sm={6} md={3} >
+        <IconEye height="50px" />
+        <div className="text-uppercase">Branding</div>
       </Col>
-      <Col xs={12} sm={6} md={3} className="bg-warning">
-        <IconShoppingCart />
+      <Col xs={12} sm={6} md={3} >
+        <IconShoppingCart height="50px" />
+        <div className="text-uppercase">Ecommerce</div>
       </Col>
-      <Col xs={12} sm={6} md={3} className="">
-        <IconPlayer />
+      <Col xs={12} sm={6} md={3} >
+        <IconPlayer height="50px" />
+        <div className="text-uppercase">Motion</div>
       </Col>
-      <Col xs={12} sm={6} md={3} className="">
-        <IconUi />
+      <Col xs={12} sm={6} md={3} >
+        <IconUi height="50px" />
+        <div className="text-uppercase">UX / UI</div>
       </Col>
-      <Col xs={12} sm={6} md={3} className="bg-info">
-        <IconCamera />
+      <Col xs={12} sm={6} md={3} >
+        <IconCamera height="50px" />
+        <div className="text-uppercase">Photography</div>
       </Col>
-      <Col xs={12} sm={6} md={3} className="">
-        <IconHeadPhones />
+      <Col xs={12} sm={6} md={3} >
+        <IconHeadPhones height="50px" />
+        <div className="text-uppercase">Marketing</div>
       </Col>      
-      <Col xs={12} sm={6} md={3} className="bg-danger">
-        <IconGlobe />
+      <Col xs={12} sm={6} md={3} >
+        <IconGlobe height="50px" />
+        <div className="text-uppercase">SEO</div>
       </Col>
     </Row>
   </Grid>  			     

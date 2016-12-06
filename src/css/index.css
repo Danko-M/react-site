@@ -440,17 +440,21 @@ body {
   }
 }
 
+.gid-8 .col-sm-6 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 @media (min-width: 768px) {
   .gid-8 .col-sm-6 {
-    padding-bottom: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-right: 2px solid #ededed;
     border-bottom: 2px solid #ededed;
   }
-}
-
-@media (min-width: 992px) {
-  .gid-8 .col-sm-6 {
-    padding-bottom: 20%;
+  .gid-8 .col-sm-6:hover {
+    background-color: #222;
+    color: #fff;
   }
 }
 
@@ -466,6 +470,10 @@ body {
 .section-i .carousel-control.left,
 .section-i .carousel-control.right {
   background-image: none;
+}
+
+.section-i p {
+  margin-bottom: 50px;
 }
 
 .section-j {

@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function IconUi() {   
+export default function IconUi({height}) {   
   return (
-		<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg"  width="32px" height="28px" viewBox="0 0 32 26" >
+		<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg"  width="32px" height={height} viewBox="0 0 32 26" >
 			<rect x="1" y="1" fill="none" stroke="#FFB647" strokeWidth="2" strokeMiterlimit="10" width="30" height="6"/>
 			<rect x="4" y="3" fill="#FFB647" width="2" height="2"/>
 			<rect x="7" y="3" fill="#FFB647" width="2" height="2"/>
