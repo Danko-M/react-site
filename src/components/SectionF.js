@@ -4,6 +4,10 @@ import IconMonitor from './icons/IconMonitor';
 import IconEye from './icons/IconEye';
 import IconShoppingCart from './icons/IconShoppingCart';
 import IconPlayer from './icons/IconPlayer';
+import IconUi from './icons/IconUi';
+import IconCamera from './icons/IconCamera';
+import IconHeadPhones from './icons/IconHeadPhones';
+import IconGlobe from './icons/IconGlobe';
 
 
 export const SectionF  = () => 
@@ -23,35 +27,27 @@ export const SectionF  = () =>
     <Row className="gid-8 text-center">
       <Col xs={12} sm={6} md={3} className="bg-success">
         <IconMonitor />
-      </Col>
-    
+      </Col>    
       <Col xs={12} sm={6} md={3} className="">
         <IconEye />
       </Col>
-
       <Col xs={12} sm={6} md={3} className="bg-warning">
         <IconShoppingCart />
       </Col>
-
       <Col xs={12} sm={6} md={3} className="">
         <IconPlayer />
       </Col>
-
       <Col xs={12} sm={6} md={3} className="">
-        <IconPlayer />
+        <IconUi />
       </Col>
-
       <Col xs={12} sm={6} md={3} className="bg-info">
-        <IconShoppingCart />
+        <IconCamera />
       </Col>
-
       <Col xs={12} sm={6} md={3} className="">
-        <IconEye />
-      </Col>
-      
-      <Col xs={12} sm={6} md={3} className="bg-danger">
-        <IconMonitor />
+        <IconHeadPhones />
       </Col>      
-  
+      <Col xs={12} sm={6} md={3} className="bg-danger">
+        <IconGlobe />
+      </Col>
     </Row>
   </Grid>  			     
