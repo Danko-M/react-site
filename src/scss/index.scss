@@ -8,10 +8,13 @@ $w: #fff;
 body {
 	font-family: 'Lato', sans-serif;
   font-size: 18px;
-  // background: #f0f; 
 }
 .alert-dismissable {
 	margin-top: 20px;
+}
+.bg-white {
+	color: $dark;
+	background-color: $w;
 }
 .bg-orange {
 	color: $w;
@@ -154,8 +157,7 @@ body {
 		}
 		min-height: 240px;
 		h2 {
-			margin-top: 40px;
-			// margin-bottom: 10px;
+			margin-top: 90px;
 			@media (min-width: 768px){
 				margin-bottom: 30px;
 			}	
@@ -380,7 +382,7 @@ body {
 // Section J
 .section-j {
 	margin-top: 100px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	@media (min-width: 992px){
 		.creatives {
 			padding-left: 20%;
@@ -389,15 +391,62 @@ body {
 		}
 	}
 }
+.brands {
+	border-top: 2px solid $gray-2;
+	border-left: 2px solid $gray-2;
+	@media (max-width: 767px){
+		margin-left: 0;
+		margin-right: 0;
+	}	
+	.col-xs-6 {
+		border-right: 2px solid $gray-2;
+		border-bottom: 2px solid $gray-2;
+	}
+}
+.brands-title {
+	margin-bottom: 50px;
+	text-align: center;
+}
 // Section K
 .section-k {
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	text-align: center;
 	background: $gray-2;
+	.row {
+    margin-top: 50px;
+	}
+	.col-xs-12 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		border: 5px solid lighten($gray-1, 25%);
+	}
+	.price {
+		padding: 10px 0; 
+		margin: 20px 0;
+		border-top: 3px solid rgba(0,0,0,.05);
+		border-bottom: 3px solid rgba(0,0,0,.05);
+	}
+	.bg-orange {
+		border: 5px solid lighten($orange, 10%);
+	}
+	.list-unstyled {
+		font-size: 15px;
+    line-height: 1.75;
+	}
+	.btn-default {
+		margin-top: 20px;
+		color: inherit;
+		background-color: inherit;
+		border-radius: 0;
+	}
 	@media (min-width: 992px){
 		.row {
-			padding-left: 20%;
+			padding-left: 10%;
+		}
+		.bg-orange {
+			margin-left: 5%;
+			margin-right: 5%;
 		}
 	}
 }
@@ -415,6 +464,14 @@ body {
 		&:hover {
 			background-color: darken($orange, 10%);
 		}
+		.panel-body {
+			padding-top: 0;
+		}
+	}
+	.IconCompass {
+		position: relative;
+    top: 10px;
+    left: -10px;
 	}
 	.map-panel {
 		position: relative;
@@ -439,11 +496,6 @@ body {
 			}
 		}
 	}
-	.fa {
-		position: relative;
-    top: 5px;
-    right: 10px;
-	}
 	.gm-style-iw {
 		text-align: center;
 	}
@@ -455,6 +507,7 @@ body {
 	color: $w;
 	background: $dark;
 	.media-left {
+		display: table-cell;
 		min-width: auto;
 	}
 	@media (min-width: 768px){
@@ -462,6 +515,11 @@ body {
 	    padding-left: 10px;
 		}
 	}	
+	@media (max-width: 767px){
+		.col-sm-8 {
+			margin-top: 50px;
+		}
+	}
 	.form-control, button {
 		border-radius: 0;
 	}

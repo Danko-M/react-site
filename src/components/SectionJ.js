@@ -41,8 +41,8 @@ export const SectionJ  = () =>
         </Row>
       </Col>
     </Row>
-    <Row className="text-center">
-      <h3 className="text-uppercase dashed-underline">Brands Who Trust Us</h3>
+    <h3 className="brands-title dashed-underline">Brands Who Trust Us</h3>
+    <Row className="brands">
       <Col xs={6} sm={3} ><img className="img-responsive" src={brand_01} alt=".."/></Col>
       <Col xs={6} sm={3} ><img className="img-responsive" src={brand_02} alt=".."/></Col>
       <Col xs={6} sm={3} ><img className="img-responsive" src={brand_03} alt=".."/></Col>

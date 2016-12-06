@@ -8,6 +8,11 @@ body {
   margin-top: 20px;
 }
 
+.bg-white {
+  color: #222;
+  background-color: #fff;
+}
+
 .bg-orange {
   color: #fff;
   background-color: #ffb647;
@@ -183,7 +188,7 @@ body {
 }
 
 .section-a .item h2 {
-  margin-top: 40px;
+  margin-top: 90px;
 }
 
 @media (min-width: 768px) {
@@ -465,7 +470,7 @@ body {
 
 .section-j {
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 @media (min-width: 992px) {
@@ -476,16 +481,75 @@ body {
   }
 }
 
+.brands {
+  border-top: 2px solid #ededed;
+  border-left: 2px solid #ededed;
+}
+
+@media (max-width: 767px) {
+  .brands {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.brands .col-xs-6 {
+  border-right: 2px solid #ededed;
+  border-bottom: 2px solid #ededed;
+}
+
+.brands-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .section-k {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   text-align: center;
   background: #ededed;
 }
 
+.section-k .row {
+  margin-top: 50px;
+}
+
+.section-k .col-xs-12 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 5px solid #eaeaea;
+}
+
+.section-k .price {
+  padding: 10px 0;
+  margin: 20px 0;
+  border-top: 3px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.05);
+}
+
+.section-k .bg-orange {
+  border: 5px solid #ffca7a;
+}
+
+.section-k .list-unstyled {
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.section-k .btn-default {
+  margin-top: 20px;
+  color: inherit;
+  background-color: inherit;
+  border-radius: 0;
+}
+
 @media (min-width: 992px) {
   .section-k .row {
-    padding-left: 20%;
+    padding-left: 10%;
+  }
+  .section-k .bg-orange {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
@@ -506,6 +570,16 @@ body {
 
 .map .bg-orange:hover {
   background-color: #ffa214;
+}
+
+.map .bg-orange .panel-body {
+  padding-top: 0;
+}
+
+.map .IconCompass {
+  position: relative;
+  top: 10px;
+  left: -10px;
 }
 
 .map .map-panel {
@@ -535,12 +609,6 @@ body {
   box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
-.map .fa {
-  position: relative;
-  top: 5px;
-  right: 10px;
-}
-
 .map .gm-style-iw {
   text-align: center;
 }
@@ -553,12 +621,19 @@ body {
 }
 
 .footer .media-left {
+  display: table-cell;
   min-width: auto;
 }
 
 @media (min-width: 768px) {
   .footer .media-body {
     padding-left: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer .col-sm-8 {
+    margin-top: 50px;
   }
 }
 

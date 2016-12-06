@@ -52,7 +52,7 @@ export class Footer extends Component {
 			      <Col xs={12} sm={4}>
 					    <Media>
 					      <Media.Left align="top">
-					        <img width={48} height={48} src="http://placehold.it/48x48" alt="..."/>
+					        <i className="fa fa-map-marker fa-2x" aria-hidden="true"></i>
 					      </Media.Left>
 					      <Media.Body>
 					        <Media.Heading className="text-uppercase dashed-underline">Address Information</Media.Heading>
@@ -61,7 +61,7 @@ export class Footer extends Component {
 					    </Media>  
 					    <Media>
 					      <Media.Left align="top">
-					        <img width={48} height={48} src="http://placehold.it/48x48" alt="..."/>
+					        <i className="fa fa-envelope fa-lg" aria-hidden="true"></i>
 					      </Media.Left>
 					      <Media.Body>
 					        <Media.Heading className="text-uppercase dashed-underline">Email</Media.Heading>
@@ -70,7 +70,7 @@ export class Footer extends Component {
 					    </Media>
 					    <Media>
 					      <Media.Left align="top">
-					        <img width={48} height={48} src="http://placehold.it/48x48" alt="..."/>
+					        <i className="fa fa-phone fa-lg" aria-hidden="true"></i>
 					      </Media.Left>
 					      <Media.Body>
 					        <Media.Heading className="text-uppercase dashed-underline">Toll Free Call</Media.Heading>

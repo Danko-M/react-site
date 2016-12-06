@@ -1,6 +1,8 @@
 import React from 'react';
 import { Grid, Row, Panel } from 'react-bootstrap';
 import {Gmaps, Marker, InfoWindow, Circle} from 'react-gmaps';
+import IconCompass from './icons/IconCompass';
+
 
 // To do
 // 1) Move state to App component
@@ -42,7 +44,7 @@ export const MapComponent = React.createClass({
     	<Grid fluid={true} className="map">
     		<Row>
     		<Panel onClick={ ()=> this.setState({ open: !this.state.open })} className="text-center bg-orange">
-          <i className="fa fa-map-marker fa-2x" aria-hidden="true"></i> Open The Location Map
+          <IconCompass /> Open The Location Map
         </Panel>
         <Panel collapsible expanded={this.state.open} className="map-panel">          
 		      <Gmaps
