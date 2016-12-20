@@ -5,8 +5,8 @@ export class SectionModal extends Component {
   render() {
     const { isOpen, handleOpen, handleClose } = this.props
     return ( 
-      <Grid>
-        <Row className="show-grid">
+      <Grid className="section-l">
+        <Row>
           <Col xs={12}>
             <Button bsStyle="warning" bsSize="small" onClick={handleOpen}>
               Launch modal

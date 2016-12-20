@@ -448,6 +448,9 @@ body {
 		color: inherit;
 		background-color: inherit;
 		border-radius: 0;
+		&:hover {
+			border-color: $dark;
+		}
 	}
 	@media (min-width: 992px){
 		.row {
@@ -458,6 +461,10 @@ body {
 			margin-right: 5%;
 		}
 	}
+}
+// Section L
+.section-l {
+	padding-top: 50px;
 }
 // Google map
 .map {
@@ -540,5 +547,13 @@ body {
 	textarea.form-control {
 		min-height: 210px;
 		background: $dark;
+	}
+	.btn {
+		border-color: transparent;
+		background-color: $w;
+		color: $dark;
+		&:hover {
+			background-color: $orange;
+		}
 	}
 }

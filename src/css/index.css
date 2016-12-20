@@ -551,6 +551,10 @@ body {
   border-radius: 0;
 }
 
+.section-k .btn-default:hover {
+  border-color: #222;
+}
+
 @media (min-width: 992px) {
   .section-k .row {
     padding-left: 10%;
@@ -559,6 +563,10 @@ body {
     margin-left: 5%;
     margin-right: 5%;
   }
+}
+
+.section-l {
+  padding-top: 50px;
 }
 
 .map {
@@ -658,4 +666,14 @@ body {
 .footer textarea.form-control {
   min-height: 210px;
   background: #222;
+}
+
+.footer .btn {
+  border-color: transparent;
+  background-color: #fff;
+  color: #222;
+}
+
+.footer .btn:hover {
+  background-color: #ffb647;
 }
